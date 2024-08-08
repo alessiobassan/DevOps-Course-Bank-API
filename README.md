@@ -6,7 +6,7 @@ Read through this file to get the project running and then follow the instructio
 
 ## Setup
 
-This project requires Python 3.8 (or higher) and uses pip to handle dependencies. If you are familiar with using virtual environments to manage dependencies, use your usual workflow to create and activate a virtual environment before proceeding.
+This project requires Python 3.9 (or higher) and uses pip to handle dependencies. If you are familiar with using virtual environments to manage dependencies, use your usual workflow to create and activate a virtual environment before proceeding.
 
 Run the following command (run from the project root) to install project dependencies:
 
