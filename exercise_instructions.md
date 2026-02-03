@@ -16,10 +16,10 @@ Before starting, take some time to explore the app and codebase – but don’t 
 
 ## Codebase Tour – Tests
 
-This exercise is about testing, and we've given you a head start! Run `poetry run pytest` from the root of the repository. Pytest will detect the test files already present, and should give output that looks that shown below. Through this exercise you'll add more tests to this suite.
+This exercise is about testing, and we've given you a head start! Run `pytest` from the root of the repository. Pytest will detect the test files already present, and should give output that looks that shown below. Through this exercise you'll add more tests to this suite.
 
 ```
-$ poetry run pytest
+$ pytest
 > ================== test session starts ================== 
 > platform darwin -- Python 3.8.1, pytest-5.4.2, py-1.8.1, pluggy-0.13.1
 > rootdir: /Users/robowe/Academy/DevOps-Course-TDD
