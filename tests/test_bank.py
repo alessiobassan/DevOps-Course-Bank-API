@@ -34,3 +34,19 @@ def test_get_account_raises_error_if_no_account_matches(bank: Bank):
 
 # TODO: Add unit tests for bank.add_funds()
 
+def test_add_funds_can_adds_a_transaction_to_the_correct_account_with_the_correct_amount(
+        bank: Bank
+    ):
+    # ARRANGE
+    test_name = "Account 1"
+    test_amount = 10
+    bank.create_account(test_name)
+
+    # ACT
+    bank.add_funds(test_name, test_amount)
+
+    # ASSERT
+    assert len(bank.transactions) == 1
+    single_transaction = bank.transactions[0]
+    assert single_transaction.amount == test_amount
+    assert single_transaction.account.name == test_name
